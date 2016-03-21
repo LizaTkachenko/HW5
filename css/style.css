@@ -1,0 +1,161 @@
+	 @font-face {
+    font-family: 'helvetica neue cyr light';
+    src: url('../fonts/helveticaneuecyr-light-webfont.eot');
+    src: url('../fonts/helveticaneuecyr-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helveticaneuecyr-light-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneuecyr-light-webfont.woff') format('woff'),
+         url('../fonts/helveticaneuecyr-light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+	background-image: url('../img/background.png'); 
+	background-repeat: no-repeat;
+	background-position: center center;
+	font-family: "helvetica neue cyr light";
+}
+.list {
+	width: 1215px;
+	height: 1028px;
+	margin: 0 auto;
+}
+header {
+	width: 1215px;
+	height: 35px;
+	background-color: #074e8c;
+	
+}
+ul li {
+	float: right;
+}
+li img {
+	float: right;
+}
+
+li {
+	color: #60b5ed;
+	font-size: 15px;
+	width: 70px;
+	padding: 10px 0px 5px 0px;
+	text-align: center;
+	height: 20px;
+}
+ul li:last-child {
+	width: 90px;
+}
+.two{
+	width: 110px;
+	color: white;
+}
+.img {
+	width: 40px;
+	height: 20px;
+	border-left: 1px solid #60b5ed;
+	padding-top: 4px;
+}
+.img li:hover{
+	background-color: transparent !important;
+	color: white;
+}
+#leftMenu {
+	background: linear-gradient(#4eabda, #2e7ac4);
+	height: 20px;
+	width: 230px;
+	list-style: none;
+	color: white;
+}
+#leftMenu a {
+	color: white;
+}
+ ul li:hover {
+	background-color: #4eabda;
+	color: white;
+	
+}
+ a {
+	color:white;
+	color: #60b5ed;
+}
+
+.box {
+	width: 500px;
+	height: 550px;
+	background-color: 	rgba(0,0,0, 0.6);
+	margin: 0 auto;
+	margin-top: 170px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+ span{
+	color: rgba(255,255,255, 0.9);
+	font-size: 24px;
+	padding-left: 190px;
+}
+.border {
+	border-bottom: 2px solid rgba(255,255,255, 0.7);
+	margin-top: 20px;
+}
+.container {
+	width: 280px;
+	height: 494px;
+	margin: 0 auto;
+	padding-top: 25px;
+}
+
+.line {
+  padding-top: 20px;
+  text-align: center;
+  color: rgba(255,255,255, 0.4);
+}
+hr {
+  border: 1px solid rgba(255,255,255, 0.4);
+  border-bottom: 1px solid black;
+  display: inline-block;
+  margin: 3px 3px;
+  width: 116px;
+}
+.secondForm {
+	padding-top: 10px;
+}
+.secondForm input {
+	color: rgba(255,255,255, 0.7);
+	background: black;
+	width: 260px;
+	height: 30px;
+	margin-top: 17px;
+	border: none;
+	box-shadow: 0px 1px 2px -2px rgba(255,255,255,1);
+	padding-left: 20px;
+}
+.secondForm input:focus {
+	background-color: #1b5288;
+}
+.thirdForm  p{
+	color: rgba(255,255,255, 0.7);
+	font-size: 14px;
+	width: 260px;
+	height: 30px;
+}
+.thirdForm  {
+	padding-top: 15px;
+}
+.fourthForm {
+	padding-top: 15px;
+}
+.fourthForm input {
+	background-color: #48a3d7;
+	border: none;
+	border-radius: 3px;
+	height: 30px;
+	color: white;
+}
+.fourthForm {
+	padding-left: 60px;
+	padding-bottom: 20px;
+}
+ p {
+	color: rgba(255,255,255, 0.7);
+	text-align: center;
+	font-size: 10px;
+}
+

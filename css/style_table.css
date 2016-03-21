@@ -1,0 +1,36 @@
+table {
+	margin-left: -25px;
+    margin-top: -25px;
+	border-collapse: collapse;
+	border: 6px solid white;
+}
+td {
+	border: 6px solid black;
+}
+.yellow {
+	background: #fae251;
+}
+.black {
+	background-color: #171717;
+}
+.blue {
+	background: #044380;
+}
+.red {
+	background: #ff592b;
+}
+.col_60 {
+ width : 60px;
+}
+.col_90 {
+	width: 90px;
+}
+.tr_60 {
+	height: 60px;
+}
+.tr_100 {
+height: 100px;
+}
+.tr_30 {
+	height: 30px;
+}
